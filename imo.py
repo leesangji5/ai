@@ -3,7 +3,7 @@ import numpy as np
 
 scaler = 1
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
+predictor = dlib.shape_predictor('data/shape_predictor_68_face_landmarks.dat')
 
 cap = cv2.VideoCapture(0)
 overlay = cv2.imread('sata/ryan_transparent.png', cv2.IMREAD_UNCHANGED)
